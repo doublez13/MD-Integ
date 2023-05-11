@@ -44,7 +44,7 @@ lsblk -s /dev/md36
 dd if=/dev/random of=/tmp/mount/file1.bin bs=1MB count=200 status=none
 sync
 
-echo; echo Causing damage to the underlying disk of the integrity target
+echo; echo Causing damage to an underlying disk of the RAID array
 dd if=/dev/random of=/dev/loop1 status=none
 sync
 
