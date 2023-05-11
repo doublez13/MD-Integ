@@ -8,7 +8,7 @@ md36      9:36   0   2.8G  0 raid5 /tmp/mount
 ├─loop3   7:3    0 953.7M  0 loop  
 └─loop4   7:4    0 953.7M  0 loop  
 
-Causing damage to the underlying disk of the integrity target
+Causing damage to the underlying disk of the RAID array
 dd: writing to '/dev/loop1': No space left on device
 
 scrub started on /dev/md36, fsid ccc89b12-1b18-4b12-b200-50f5fde884cf (pid=1366683)
